@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+}
+::placeholder {
+  color: gray;
+  font-size: 1.2rem;
+}
+.searchContainer {
+  display: flex;
+  padding: 4rem 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar {
+  padding: 0.8rem 1rem;
+background-color: white;
+  outline: none;
+  box-shadow: 20px 20px 50px lightgray;
+  padding-right: 18rem;
+  margin: 1rem 1rem;
+  font-family: "Nunito";
+  font-size: 1rem;
+}
+.searchBtn {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8%;
+  background-color: #04a9f4;
+  font-family: "Nunito";
+  color: white;
+  font-size: 1rem;
+}
