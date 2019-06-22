@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    background-color: white;
+    color: #02ACED;
+    padding: 0;
+}
+.Login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Nunito';
+    background-image: url("./background.jpg");
+    background-position: 'center';
+    background-Size: 'cover';
+    background-Repeat: 'no-repeat';
+    height: 640px;
+}
+.Login-component{
+    display: flex;
+flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+    background-color: white;
+
+}
+button#twitter {
+    border-color: #007aa6;
+    background-color: #008cbf;
+    background-image: url(https://g.twimg.com/Twitter_logo_white.png);
+}

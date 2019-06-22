@@ -16,7 +16,7 @@ class Search extends React.Component {
   handleSubmit(event){
     event.preventDefault();
     this.props.searchItem(this.state.value);
-    this.setState = ({value: "" });
+    // this.setState ({value: "" });
   }
 
   render() {
